@@ -1,0 +1,31 @@
+#proc/self/map 
+setarch x86_64 -R cat /proc/self/maps 3 times
+cat/proc/self/maps  -for on - 3times
+
+
+ulimit -c unlimited
+then run ./v...... < .... 
+then ls there is core file
+
+$2 = -56752
+1 = -56752
+$1 = -56752
+
+the all the core dump, we saw of print f and system vary but ofset is a const 56752 bytes.
+so if we get one address we can find other too
+run time linking
+
+x/xg 0x601020
+0x601020 <printf@got.plt>:	0x00000000004004c6
+plt(procedure linkage table) deoes not chenge(DURING COMPILATION + RUNNING TIME)   x/4i....()  library fun calls go to this table
+got(global offset table) will change during execution ,got table holds actual address.   x/xg ..... (pointers are in got table) set ofpinters with addrs of librart funs
+location ofgot is fixed .ie,addlibrary fun stored at fixed add
+
+pwndbg> x/xg 0x601020
+0x601020 <printf@got.plt>:	0x00007ffff7a69340
+pwndbg> x/2i 0x601020
+   0x601020 <printf@got.plt>:	rex xchg ebx,eax
+   0x601022 <printf@got.plt+2>:	cmps   BYTE PTR ds:[rsi],BYTE PTR es:[rdi]
+ 
+
+

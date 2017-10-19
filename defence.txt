@@ -1,0 +1,2 @@
+gcc -fsanitize=address vulnerable.c -o asan-gcc.out -masm=intel
+clang-4.0 -fsanitize=address vulnerable.c -o asan-gcc.out -masm=intel

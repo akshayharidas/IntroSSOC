@@ -1,0 +1,7 @@
+target,ip address,domain name,type
+billing.alvosec.com,89.212.246.202,billing.alvosec.com,host
+imap.alvosec.com,89.212.246.202,imap.alvosec.com,alias
+imap.alvosec.com,89.212.246.202,alvosec.com,host
+mail.alvosec.com,89.212.246.202,mail.alvosec.com,host
+ns1.alvosec.com,89.212.246.202,ns1.alvosec.com,host
+ns2.alvosec.com,54.93.180.148,ns2.alvosec.com,host

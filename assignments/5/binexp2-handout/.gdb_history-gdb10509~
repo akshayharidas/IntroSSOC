@@ -1,0 +1,17 @@
+b main
+r
+ni
+ nini
+ ni
+ ni
+r
+x/8i g1
+x/8i g2
+x/10i g1
+disas main
+x/xg 0x400510
+x/5i 0x400510
+print system
+print system - printf
+x/10i g1 
+q

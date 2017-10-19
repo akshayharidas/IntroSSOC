@@ -1,0 +1,25 @@
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000400c90 
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000000000400da0 
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x00000000004013a2 
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x0000000000400ee0 
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x0000000000400ef7 
+	breakpoint already hit 1 time
+7       breakpoint     keep y   0x0000000000400eee 
+	breakpoint already hit 1 time
+8       breakpoint     keep y   0x0000000000400efc 
+	breakpoint already hit 1 time
+9       breakpoint     keep y   0x000000000040145c 
+	breakpoint already hit 1 time
+0x400e65
+10 0x400e6a phase 2 end(put)
+11 0x400e81  phase 3 end(put)
+si -> 0x400fce
+	0x40143a
+
+12 0x400ea2
+  si  0x401062  

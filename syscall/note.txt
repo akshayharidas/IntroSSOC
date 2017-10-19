@@ -1,0 +1,4 @@
+rdx:rax / input
+
+quo - rax
+rem- rdx

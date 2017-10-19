@@ -1,0 +1,4 @@
+         
+➜  nasm -felf64 1_hello_world_using_syscalls.asm
+➜  gcc -nostdlib 1_hello_world_using_syscalls.o 
+➜  ./a.out 

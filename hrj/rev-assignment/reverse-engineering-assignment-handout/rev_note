@@ -1,0 +1,7 @@
+0x4007bd
+Takes an string from as username, finds the length of the username
+Takes the md5 of the username
+XOR the 2 16byte and generate new
+And the result is and with 0xf
+
+New Break ; 0x4008a6

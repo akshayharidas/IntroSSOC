@@ -1,0 +1,4 @@
+telescope $registor name
+i r inforegister
+pdisass main 
+

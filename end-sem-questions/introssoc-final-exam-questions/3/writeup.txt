@@ -1,0 +1,6 @@
+it taking 2 inputs
+first they fing the strlen and then first argument stomres in [rbp-0x10] and second in [rbp-8]
+then comparing each other and cheching jump no qual to condition if he length is  eaual it print 0
+if the first argument len is greater then it prints 1 if the second one is greater it prints -1
+and it will exit
+
